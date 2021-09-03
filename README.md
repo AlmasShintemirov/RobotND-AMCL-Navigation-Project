@@ -1,4 +1,4 @@
-# RobotND_AMCL Navigation
+# RobotND AMCL Navigation Project
 Udacity Robotics Software Engineer Nanodegree Project 3
 This project implements ROS Localisation and Navigation using Adaptive Monte Carlo Localisation (AMCL) with a skid-steer robot
 
