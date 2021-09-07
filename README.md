@@ -47,13 +47,13 @@ source devel/setup.bash
 
 # Running 
 
-roslaunch my_robot_localization world.launch
+   roslaunch my_robot_localization world.launch
 
-roslaunch my_robot_localization amcl.launch (in a new terminal window)
+   roslaunch my_robot_localization amcl.launch (in a new terminal window)
 
 For running the robot teleopation:
 
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py (in a new terminal window)
+   rosrun teleop_twist_keyboard teleop_twist_keyboard.py (in a new terminal window)
 
 Gazebo and Rviz will load and you should arrive at a result similar to the below.
 
