@@ -3,9 +3,10 @@ Udacity Robotics Software Engineer Nanodegree Project 3
 
 This project implements ROS Localisation and Navigation using Adaptive Monte Carlo Localisation (ROS AMCL package http://wiki.ros.org/amcl) with a skid-steer robot
 
-Prerequisites
+# Prerequisites
 Ubuntu OS 
-Robot Operating System (ROS) Kinetic or Melodic
+
+Robot Operating System (ROS) Kinetic or Melodic 
 
 Install ROS nodes required for the local and global planners, amcl, maps and motor control for the navigation stack.
 
@@ -18,7 +19,7 @@ $ sudo apt-get install ros-melodic-map-server
 $ sudo apt-get install ros-melodic-amcl
 
 
-Installation
+# Installation
 
 Clone this repository in your catkin workspace 'src/' folder.
 
@@ -44,14 +45,14 @@ catkin_make
 source devel/setup.bash
 
 
-To run the project:
+# Running 
 
 roslaunch my_robot_localization world.launch
 
 roslaunch my_robot_localization amcl.launch (in a new terminal window)
 
-
 For running the robot teleopation:
+
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py (in a new terminal window)
 
 Gazebo and Rviz will load and you should arrive at a result similar to the below.
