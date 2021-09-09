@@ -25,23 +25,23 @@ Clone this repository in your catkin workspace 'src/' folder.
 If you prefer to control your robot to help it localize itself as you did in the lab, you would need to add the teleop node to your package. 
 Clone the ROS-Teleop package to your src folder:
 
-   cd /home/workspace/catkin_ws/src
-   git clone https://github.com/ros-teleop/teleop_twist_keyboard
+      cd /home/workspace/catkin_ws/src
+      git clone https://github.com/ros-teleop/teleop_twist_keyboard
 
 Build the package and source the setup script:
 
-   cd ..
-   catkin_make
-   source devel/setup.bash
+      cd ..
+      catkin_make
+      source devel/setup.bash
 
 ## Running 
 
-   roslaunch my_robot_localization world.launch
-   roslaunch my_robot_localization amcl.launch (in a new terminal window)
+      roslaunch my_robot_localization world.launch
+      roslaunch my_robot_localization amcl.launch (in a new terminal window)
 
 For running the robot teleopation:
    
-   rosrun teleop_twist_keyboard teleop_twist_keyboard.py (in a new terminal window)
+      rosrun teleop_twist_keyboard teleop_twist_keyboard.py (in a new terminal window)
 
 Gazebo and Rviz will load and you should arrive at a result similar to the below.
 
