@@ -12,15 +12,15 @@ Robot Operating System (ROS) Kinetic or Melodic
 
 Install ROS nodes required for the local and global planners, amcl, maps and motor control for the navigation stack.
 
-   sudo apt-get update
-   sudo apt-get install ros-melodic-move-base
-   sudo apt-get install ros-melodic-map-server
-   sudo apt-get install ros-melodic-amcl
+      sudo apt-get update
+      sudo apt-get install ros-melodic-move-base
+      sudo apt-get install ros-melodic-map-server
+      sudo apt-get install ros-melodic-amcl
 
 Clone this repository in your catkin workspace 'src/' folder.
 
-   cd ~/catkin_ws/src/
-   git clone https://github.com/AlmasShintemirov/RobotND-AMCL-Navigation-Project.git
+      cd ~/catkin_ws/src/
+      git clone https://github.com/AlmasShintemirov/RobotND-AMCL-Navigation-Project.git
 
 If you prefer to control your robot to help it localize itself as you did in the lab, you would need to add the teleop node to your package. 
 Clone the ROS-Teleop package to your src folder:
